@@ -97,7 +97,7 @@
 
 }
 .background{
-    background: rgba(0,0 ,0 , 0.7)url("imgbg.jpg");
+    background: rgba(0,0 ,0 , 0.7)url("../imgbg.jpg");
     background-size: cover;
     background-blend-mode: darken;
 }
