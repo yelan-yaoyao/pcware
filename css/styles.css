@@ -106,5 +106,9 @@
     justify-content: center;
     align-items: center;
     color: #FFF;
+    font-family: 'Times New Roman', Times, serif;
     
+}
+.firstsection{
+    height: 100vh;
 }
