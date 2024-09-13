@@ -21,7 +21,7 @@
     display: flex;
 }
 .navbar-list{
-   width: 50%;
+   width: 75%;
    background-color: rgb(0, 255, 42);
    display: flex;
    align-items: center;
@@ -39,7 +39,7 @@
 
 }
 .rightnav {
-    width: 50%;
+    width: 25%;
     text-align: right;
 }
 
