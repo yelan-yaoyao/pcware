@@ -22,6 +22,11 @@
 
 .navbar {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
 }
 
 .navbar-list {
@@ -107,8 +112,23 @@
     align-items: center;
     color: #FFF;
     font-family: 'Times New Roman', Times, serif;
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
     
 }
 .firstsection{
     height: 100vh;
+
+}
+.firsthalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+}
+.secondhalf{
+    width: 30%;
 }
