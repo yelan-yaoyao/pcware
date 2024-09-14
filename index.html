@@ -4,23 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
+    
     <title>PCWare</title>
 </head>
 
 <body>
-    <nav class="navbar background">
+    <nav class="navbar background h-nav-resp">
 
-        <ul class="navbar-list">
+        <ul class="navbar-list v-class-resp">
             <div class="logo"><img src="logo.jpg" alt="logo"></div>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#">PcBuilder</a></li>
-            <li><a href="#">QuickFix</a></li>
+            <li><a href="index.html">Home</a></li>         
             <li><a href="#">Laptop</a></li>
+            <li><a href="#">QuickFix</a></li>
+            <li><a href="#">PcBuilder</a></li>
             <li><a href="#">ContactUs</a></li>
         </ul>
-        <div class="rightnav">
+        <div class="rightnav v-class-resp">
             <input type="text" ,name="search" id="search">
             <button class="btn1 btn-sm">Search</button>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
         </div>
     </nav>
     <section class="background firstsection">
@@ -97,6 +103,7 @@
         Copyright &copy; 2024 PCWare - all rights reserved
         </p>
     </footer>
+    <script src="js/resp.js"></script>
 </body>
 
 </html>
