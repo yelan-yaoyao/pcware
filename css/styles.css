@@ -3,7 +3,9 @@
     padding: 0;
 
 }
-
+html{
+    scroll-behavior: smooth;
+}
 .logo {
     width: 50px;
     height: 50px;
@@ -27,6 +29,7 @@
     position: sticky;
     top: 0;
     cursor: pointer;
+  
 }
 
 .navbar-list {
@@ -160,11 +163,12 @@
 }
 .section{
     display: flex;
-    height: 500px;
+   
     align-items: center;
     justify-content: space-evenly;
     max-width: 80%;
     margin: auto;
+    padding: 10px;
 }
 .paras{
     padding: 0 80px;
@@ -190,7 +194,7 @@
 
 }
 .form{
-    max-width: 500px;
+    max-width: 62%;
     margin: auto;
     
     
@@ -240,11 +244,16 @@
 @media only screen and (max-width: 1199px){
     .navbar-list{
         flex-direction: column;
+        padding-top: 100px;
+       
     }
     .navbar{
         flex-direction: column;
+        height: 400px;
+        transition: all 0.3s ease-out;
 
     }
+    
     .rightnav{
         text-align: center;
     }
@@ -260,5 +269,25 @@
     }
     .v-class-resp{
         opacity: 0;
+    }
+    .box-main{
+        flex-direction: column;
+        max-width: 100%;
+    }
+    .section{
+        flex-direction: column-reverse;
+
+    }
+    .text-small{
+        text-align: center;
+    }
+    .text-big{
+        text-align: center;
+    }
+    .buttons{
+        text-align: center;
+    }
+    .paras{
+        padding: 0px;
     }
 }
